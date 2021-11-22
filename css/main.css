@@ -96,6 +96,8 @@ html {
 body {
   background-color: #202322;
   color: #e2e3ed;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
 }
 
 ul,
@@ -106,24 +108,47 @@ ol {
 
 a {
   color: #e2e3ed;
-  font-family: 'Open Sans', sans-serif;
   font-size: 1.125em;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-h2 {}
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
 
 h3,
-h4 {}
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
+}
 
-p {}
+p {
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.875em;
+  line-height: 1.2857;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 img {}
 
 figure {}
 
-address {}
+address {
+  font-style: normal;
+}
 
 .content-wrapper {
   width: 90%;
@@ -178,6 +203,8 @@ footer {
 
 footer p {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875em;
 }
 
 footer .content-wrapper {
@@ -212,15 +239,6 @@ footer .copyright {
 .hero-area {
   display: flex;
   justify-content: center;
-  flex-flow: row wrap;
-}
-
-/* Aside */
-
-aside {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 

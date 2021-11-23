@@ -239,7 +239,17 @@ footer .copyright {
 .hero-area {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   flex-flow: row wrap;
+  background: url("/img/jake-melara-72ppi-hero.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.hero-area .content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 aside .form {

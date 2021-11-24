@@ -90,10 +90,15 @@ textarea {
 /* General Styles  */
 
 html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font: 16px;
+  background-color: #fff;
 }
 
 body {
+  max-width: 1200px;
   background-color: #202322;
   color: #e2e3ed;
   font-family: "Open Sans", sans-serif;
@@ -142,9 +147,13 @@ aside {
   flex-flow: row wrap;
 }
 
-/* img {}
+img {
+  width: 100%;
+}
 
-figure {} */
+figure {
+  margin: 0;
+}
 
 address {
   font-style: normal;
@@ -175,6 +184,15 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 60%;
+
 }
 
 .header-divider {
@@ -284,6 +302,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url("/img/rawpixel-72ppi-about.jpg") center no-repeat;
+  background-size: cover;
 }
 
 .features h2 {
@@ -476,6 +496,10 @@ input[type=button] {
     justify-content: space-between;
   }
 
+  header figure {
+    width: 24%;
+  }
+
   header nav {
     width: 20%;
   }
@@ -521,6 +545,10 @@ input[type=button] {
   .reviews article {
     display: flex;
     justify-content: space-between;
+  }
+
+  .reviews figure {
+    width: 42%;
   }
 
   .reviews article div {

@@ -675,6 +675,10 @@ input[type=button] {
     width: 45%;
   }
 
+  .mission figure {
+    height: 45.5%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }

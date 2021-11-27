@@ -113,6 +113,8 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -124,6 +126,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
 
 h3,
@@ -240,22 +243,29 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
   margin: 20px 0;
 }
 
-
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
 /* Hero Area */
 
 .hero-area {
-  background: url("../img/jake-melara-72ppi-hero.jpg");
+  background: url("/img/jake-melara-72ppi-hero.jpg");
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -310,7 +320,7 @@ input[type=button] {
 /* Features */
 
 .features {
-  background: url('../img/rawpixel-72ppi-features.jpg');
+  background: url("/img/rawpixel-72ppi-features.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -334,14 +344,14 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
-.features p {
-  text-align: center;
-  margin: 0;
-}
-
 .features i {
   font-size: 3.75em;
   margin-bottom: 40px;
+}
+
+.features p {
+  text-align: center;
+  margin: 0;
 }
 
 /* Reviews */
@@ -384,11 +394,11 @@ input[type=button] {
 }
 
 .map iframe {
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 .contact-section {
@@ -563,10 +573,6 @@ input[type=button] {
     width: 20%;
   }
 
-  header nav ul {
-    justify-content: space-between;
-  }
-
   .header-divider {
     display: none;
   }
@@ -615,6 +621,10 @@ input[type=button] {
     width: 62%;
   }
 
+  .features i {
+    margin-bottom: 30px;
+  }
+
   /* Reviews */
   .reviews article {
     display: flex;
@@ -661,6 +671,11 @@ input[type=button] {
     line-height: 1.285;
   }
 
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+
   footer .copyright {
     width: 100%;
   }
@@ -680,8 +695,8 @@ input[type=button] {
     width: 45%;
   }
 
-  .mission figure {
-    height: 45.5%;
+  .map figure {
+    padding-bottom: 45.5%;
   }
 
   .contact-section .content-wrapper h2 {
@@ -768,7 +783,6 @@ input[type=button] {
 
   /* Features */
 
-
   .features h2 {
     width: 90%;
   }
@@ -778,12 +792,13 @@ input[type=button] {
   }
 
   /* Reviews */
-  .reviews article div {
-    width: 42%;
-  }
 
   .reviews h2 {
     padding-bottom: 50px;
+  }
+
+  .reviews article div {
+    width: 42%;
   }
 
   footer h4 {
@@ -793,6 +808,9 @@ input[type=button] {
   /* ==========================================================================
     About Page
     ========================================================================== */
+  .map figure {
+    padding-bottom: 37.5%;
+  }
 
   .mission h2,
   .contact-section .content-wrapper h2 {

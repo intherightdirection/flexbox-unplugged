@@ -265,7 +265,7 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
-  background: url("/img/jake-melara-72ppi-hero.jpg");
+  background: url("../img/jake-melara-72ppi-hero.jpg");
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -320,7 +320,7 @@ input[type=button] {
 /* Features */
 
 .features {
-  background: url("/img/rawpixel-72ppi-features.jpg");
+  background: url("../img/rawpixel-72ppi-features.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
